@@ -4,7 +4,7 @@ const { spawn } = require("child_process");
  * An AWS resources utility function that helps using AWS CLI tag-resources API in an easy manner to tag resources based on AWS ARN.
  * @param {Array<string>} arns - an array containing strings representing ARNs.
  * @param {Array<string>} tags - an array containing strings representing tags under the form of 'tag=value'; bad formats will cause command errors.
- * @param {} awsConfig
+ * @param {{profile: string, region: string}} awsConfig
  */
 function tagger(arns, tags, awsConfig) {
   const { region, profile } = awsConfig;
