@@ -3,8 +3,8 @@
 A Node.js utility function that helps tagging AWS resources based on their ARN and overcomes limitations of AWS CLI tag-resources API
 
 References:
-[https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html)
-[https://docs.aws.amazon.com/cli/latest/reference/resourcegroupstaggingapi/tag-resources.html](https://docs.aws.amazon.com/cli/latest/reference/resourcegroupstaggingapi/tag-resources.html)
+- [https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html)
+- [https://docs.aws.amazon.com/cli/latest/reference/resourcegroupstaggingapi/tag-resources.html](https://docs.aws.amazon.com/cli/latest/reference/resourcegroupstaggingapi/tag-resources.html)
 
 # Usage example
 
