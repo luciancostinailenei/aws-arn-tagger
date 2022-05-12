@@ -36,6 +36,7 @@ const arns = [
   "arn:partition:service:region:account-id:resource-type/resource-id",
   // no size restriction
 ];
+
 const tags = [
   "owner=your-team@workemail.com",
   "environment=qa",
