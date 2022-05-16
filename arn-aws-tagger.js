@@ -61,6 +61,9 @@ function tagger(arns, tags, awsConfig) {
     process.on("error", (data) => {
       console.error(`stderr: ${data}`);
     });
+
+    console.log(
+      "Script execution finished. If there are no errors logged, you may want to additionally check your AWS resources manually to see if tags have been applied successfully. "
+    );
   }
 }
-
